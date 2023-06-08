@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 27%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22vh;
+}
+
+#quote-container {
+  width: 46vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7rem 2rem 3rem;
+  border-radius: 36px;
+}
+#quote-container h1 {
+  color: #154874;
+  margin-bottom: 9vh;
+  margin-top: -10vh;
+}
+#quote-container .quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#quote-container .quote .quote-content, #quote-container .quote .author {
+  margin-bottom: 2vh;
+}
+#quote-container .quote .author {
+  align-self: flex-end;
+}
+#quote-container button {
+  width: 100%;
+  padding: 1rem;
+  color: #edcfa3;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgba(49, 53, 82, 0.7607843137);
+  border-radius: 10px;
+  margin-top: 3vh;
+  margin-bottom: 0.7vh;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    height: 592px;
+    background-position-y: 0;
+  }
+  .container {
+    margin-top: 8vh;
+  }
+  #quote-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 8vw;
+  }
+  #quote-container h1 {
+    font-size: 1.2rem;
+    margin-bottom: 6vh;
+    margin-top: -13vh;
+  }
+  #quote-container .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  #quote-container .quote .quote-content, #quote-container .quote .author {
+    margin-bottom: 2vh;
+  }
+  #quote-container .quote .author {
+    align-self: center;
+  }
+  #quote-container button {
+    font-size: 0.9rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 0.4vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    height: 592px;
+    background-position-y: 0;
+  }
+  .container {
+    margin-top: 8vh;
+  }
+  #quote-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 8vw;
+  }
+  #quote-container h1 {
+    font-size: 1.2rem;
+    margin-bottom: 6vh;
+    margin-top: -13vh;
+  }
+  #quote-container .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  #quote-container .quote .quote-content, #quote-container .quote .author {
+    margin-bottom: 2vh;
+  }
+  #quote-container .quote .author {
+    align-self: center;
+  }
+  #quote-container button {
+    font-size: 0.9rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 0.4vh;
+  }
+}/*# sourceMappingURL=style.css.map */
