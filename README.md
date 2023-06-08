@@ -6,7 +6,7 @@ The Quote Generator is a web application that generates random quotes to provide
 
 You can access the live version of the Quote Generator on GitHub Pages. Click on the link below to visit the page:
 
-[Quote Generator Live Page]()
+[https://muhammad-1956.github.io/Quote-Generator/quoteGenerator.html]
 
 ## Features
 
