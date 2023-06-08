@@ -59,7 +59,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 768px) {
   body {
-    height: 592px;
+    height: 613px;
     background-position-y: 0;
   }
   .container {
