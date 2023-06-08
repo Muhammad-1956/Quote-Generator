@@ -20,7 +20,7 @@ body {
 }
 
 #quote-container {
-  width: 46vw;
+  width: 45%;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@ body {
   margin-bottom: 0.7vh;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
   body {
     height: 592px;
     background-position-y: 0;
@@ -67,6 +67,48 @@ body {
   }
   #quote-container {
     width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 8vw;
+  }
+  #quote-container h1 {
+    font-size: 1.2rem;
+    margin-bottom: 6vh;
+    margin-top: -13vh;
+  }
+  #quote-container .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  #quote-container .quote .quote-content, #quote-container .quote .author {
+    margin-bottom: 2vh;
+  }
+  #quote-container .quote .author {
+    align-self: center;
+  }
+  #quote-container button {
+    font-size: 0.9rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 0.4vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    height: 592px;
+    background-position-y: 0;
+  }
+  .container {
+    margin-top: 8vh;
+  }
+  #quote-container {
     background-color: white;
     display: flex;
     flex-direction: column;

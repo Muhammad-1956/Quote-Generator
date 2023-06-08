@@ -17,7 +17,7 @@ body{
     margin-top: 22vh;
 }
 #quote-container{
-    width: 46vw;
+    width: 45%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -41,29 +41,72 @@ body{
             align-self: flex-end;
         }
     }
-    button{
-        width: 100%;
-        padding: 1rem;
-        color: #edcfa3;
-        font-size: 1rem;
-        cursor: pointer;
-        background-color: #313552c2;
-        border-radius: 10px;
-        margin-top: 3vh;
-        margin-bottom: .7vh;
+        button{
+            width: 100%;
+            padding: 1rem;
+            color: #edcfa3;
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: #313552c2;
+            border-radius: 10px;
+            margin-top: 3vh;
+            margin-bottom: .7vh;
+        }
     }
-}
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
     body{
         height: 592px;
-    background-position-y: 0;
+        background-position-y: 0;
     }
     .container{
         margin-top: 8vh;
     }
     #quote-container{
         width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        text-align: center;
+        margin: 0 8vw;
+        h1{
+            font-size: 1.2rem;
+            margin-bottom: 6vh;
+            margin-top: -13vh;;
+        }
+        .quote{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.9rem;
+            .quote-content,.author{
+                margin-bottom: 2vh;
+            }
+            .author{
+                align-self: center;
+            }
+        }
+        button{
+            font-size: 0.9rem;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 3vh;
+            margin-bottom: .4vh;
+        }
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    body{
+    height: 592px;
+    background-position-y: 0;
+    }
+    .container{
+        margin-top: 8vh;
+    }
+    #quote-container{
+        // width: 45%;
         background-color: white;
         display: flex;
         flex-direction: column;
